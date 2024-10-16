@@ -1,0 +1,52 @@
+.fondo{
+    background-color: darkslategrey;
+}
+.miTexto{
+    font-size: 80px;
+    color:green;
+}
+body{
+    background-color: rgb(11, 233, 122);
+}
+.title{
+    font-size: 3em;
+}
+.Logo{
+    width: 200px;
+    height: 150px;
+    
+}
+#coco{ 
+    width: 350px;
+}
+#Titulos{
+    border: 2px solid black;
+    width: 25vw;
+    margin: auto
+}
+.Cards{
+    border: 2px solid black;
+    width:fit-content;
+    padding: 1px 1em 5px 1em;
+    border-radius: 15%;
+    transition: 500ms;
+    display:flex ;
+    flex-direction: column;
+    gap: 2em ;
+    align-items: center;
+}
+.Cards:hover{
+    background-color: aqua;
+}
+#Cards-Container{
+    background-color: blue;
+    width: 85%;
+    margin: auto;
+    margin-top: 1.5em;
+    padding: 2em;
+    border: 7px solid black;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
